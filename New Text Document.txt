@@ -1,0 +1,7 @@
+Logging locally and with mlflow ui (run mlflow ui here to store artifacts here)
+https://mlflow.org/docs/latest/quickstart.html
+
+Model selection and deployment (localhost, docker,...)
+https://mlflow.org/docs/latest/quickstart_mlops.html
+
+https://mlflow.org/docs/latest/projects.html

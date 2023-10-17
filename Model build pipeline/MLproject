@@ -1,0 +1,20 @@
+name: Credit risk model
+
+python_env: python_env.yaml
+# or
+# conda_env: my_env.yaml
+# or
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  main:
+    parameters:
+      data_file: path
+      regularization: {type: string, default: 'l2'}
+    command: "python train.py -r {regularization_type} {data_file}"
+  validate:
+    parameters:
+      data_file: path
+      model_file: path
+    command: "python validate.py {model_file} {data_file}"
