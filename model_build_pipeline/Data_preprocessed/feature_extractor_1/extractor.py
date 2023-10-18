@@ -44,6 +44,13 @@ def change_data(df):
         '\'all paid\'': 'normal'
     }, inplace=True)
 
+     # credit_history
+    df_c['class'].replace(
+    {
+        'good':0,
+        'bad':1
+    }, inplace=True)
+
     return df_c
 
 def ohc_data(df):
@@ -89,13 +96,17 @@ def extract_data(df):
                 "checking_status_'<0'",
                 "employment_'<1'",
                 'employment_unemployed',
-                "property_magnitude_'no known property'"]
+                "property_magnitude_'no known property'",
+                "class"]
     
     df_ext = df[extract].copy()
 
     return df_ext
 
-def feature_extractor_pipeline(df):
+def fe_pipeline(df):
+    """
+    Pipeline for extracting features of a pandas dataframe
+    """
     df_fe = df.copy()
     df_fe = feature_filter(df_fe)
     df_fe = change_data(df_fe)
@@ -104,4 +115,8 @@ def feature_extractor_pipeline(df):
 
     return df_fe
 
-
+# df = pd.read_csv('test.csv')
+# print(df.columns)
+# df_f = fe_pipeline(df)
+# print(df_f.columns)
+# print(df_f.shape)
