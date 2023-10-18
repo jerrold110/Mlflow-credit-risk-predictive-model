@@ -1,0 +1,35 @@
+name: Credit risk model
+
+python_env: config/python_env.yaml
+# or
+# conda_env: my_env.yaml
+# or
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  # Extract data from a certain location with a certain feature extractor logic
+  split_data:
+    parameters:
+      data_file: float
+    command: "python split_data.py"
+  extract:
+    parameters:
+      data_file: path
+      extractor_file: path
+    command: "python extract.py {data_file} {extractor_file}"
+  train:
+    parameters:
+      data_path: path
+      regularization: {type: string, default: 'l2'}
+    command: "python train.py -r {data_path} {regularization_type}"
+  # Default entry-point: mlflow run .
+  # main:
+  #   parameters:
+  #   command: "python train.py"
+
+# mlflow run [OPTIONS] URI
+# mlflow run -e MAIN .
+# mlflow run -e extract .
+# mlflow run git@github.com:mlflow/mlflow-example.git -P alpha=0.5
+  
