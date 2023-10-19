@@ -1,14 +1,15 @@
 name: Credit risk model
 
 # python_env: config/python_env.yaml
-# conda_env: config/python_env.yaml
+conda_env: config/python_env.yaml
 # docker_env:
 #    image:  mlflow-docker-example
 
 entry_points:
+# Split a dataset into a train-test split, not other operations
   split_data:
     parameters:
-      data_file: path
+      data_file: path # this could be uri https://mlflow.org/docs/latest/projects.html#specifying-parameters
     command: "python split_data.py {data_file}"
   # Extract data from a certain location with a certain feature extractor logic
   extract_data:
@@ -16,16 +17,18 @@ entry_points:
       data_path: path
       extractor_file: path
     command: "python extract_data.py {data_path} {extractor_file}"
-
+  # Scaling, cross-validation train. Validate on test data. Save scaling and model objects
   train:
     parameters:
       data_path: path
-      regularization: {type: string, default: 'l2'}
-    command: "python train.py -r {data_path} {regularization_type}"
-  # Default entry-point: mlflow run .
+      cv_folds: {type: float, default: 5}
+      model: string
+    command: "python train.py {data_path} {cv_folds} {model}"
+  # unused currently
   # main:
   #   parameters:
-  #   command: "python train.py"
+  #     shrek: path
+  #   command: "python train.py {shrek}"
 
 # mlflow run [OPTIONS] URI
 # mlflow run -e MAIN .

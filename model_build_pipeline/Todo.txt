@@ -1,0 +1,3 @@
+Port over code from notebook into train.py
+write mlflow code to log models, metrics, training?
+set aucroc-score automatic model evalatuion with train data on https://mlflow.org/docs/latest/models.html#performing-model-validation 

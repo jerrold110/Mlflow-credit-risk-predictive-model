@@ -1,5 +1,6 @@
 import sys
 import os
+import importlib.util
 
 from pandas import read_csv
 from sklearn.model_selection import train_test_split
@@ -8,9 +9,6 @@ from mlflow.data.pandas_dataset import PandasDataset
 
 data_path = sys.argv[1] #string
 ext_path = sys.argv[2] #string
-
-import importlib.util
-import sys
 
 def import_module_from_path(file_path):
     module_name = "Feature extractor"
@@ -22,7 +20,6 @@ def import_module_from_path(file_path):
 
 # import extractor module
 extractor = import_module_from_path(ext_path)
-print(help(extractor.fe_pipeline))
 
 # extract features from train and test data
 train = read_csv(data_path + '/train.csv')
@@ -42,5 +39,6 @@ pd_data1: PandasDataset = mlflow.data.from_pandas(train_fe, source=train_fe_dir)
 pd_data2: PandasDataset = mlflow.data.from_pandas(test_fe, source=test_fe_dir)
 
 with mlflow.start_run():
+    mlflow.log_artifact(ext_path)
     mlflow.log_input(pd_data1, context="train data features")
     mlflow.log_input(pd_data2, context="test data features")
