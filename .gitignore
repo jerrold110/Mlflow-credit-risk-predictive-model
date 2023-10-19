@@ -1,5 +1,5 @@
 # mlflow
-mlruns/
+model_build_pipeline/mlruns/.trash
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

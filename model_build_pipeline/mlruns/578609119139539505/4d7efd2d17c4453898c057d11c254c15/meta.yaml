@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/4d7efd2d17c4453898c057d11c254c15/artifacts
+end_time: 1697710181606
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: active
+run_id: 4d7efd2d17c4453898c057d11c254c15
+run_name: efficient-stoat-536
+run_uuid: 4d7efd2d17c4453898c057d11c254c15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710180420
+status: 3
+tags: []
+user_id: jerro

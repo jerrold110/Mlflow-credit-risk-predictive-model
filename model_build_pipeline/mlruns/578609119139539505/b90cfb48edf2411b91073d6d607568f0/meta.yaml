@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/b90cfb48edf2411b91073d6d607568f0/artifacts
+end_time: 1697710745917
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: active
+run_id: b90cfb48edf2411b91073d6d607568f0
+run_name: gifted-penguin-666
+run_uuid: b90cfb48edf2411b91073d6d607568f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710691387
+status: 3
+tags: []
+user_id: jerro

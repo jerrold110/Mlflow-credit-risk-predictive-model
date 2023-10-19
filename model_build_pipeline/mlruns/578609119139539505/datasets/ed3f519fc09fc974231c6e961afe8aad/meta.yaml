@@ -1,0 +1,16 @@
+digest: 80b2a89e
+name: dataset
+profile: '{"num_rows": 800, "num_elements": 16800}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "checking_status"}, {"type":
+  "long", "name": "duration"}, {"type": "string", "name": "credit_history"}, {"type":
+  "string", "name": "purpose"}, {"type": "long", "name": "credit_amount"}, {"type":
+  "string", "name": "savings_status"}, {"type": "string", "name": "employment"}, {"type":
+  "long", "name": "installment_commitment"}, {"type": "string", "name": "personal_status"},
+  {"type": "string", "name": "other_parties"}, {"type": "long", "name": "residence_since"},
+  {"type": "string", "name": "property_magnitude"}, {"type": "long", "name": "age"},
+  {"type": "string", "name": "other_payment_plans"}, {"type": "string", "name": "housing"},
+  {"type": "long", "name": "existing_credits"}, {"type": "string", "name": "job"},
+  {"type": "long", "name": "num_dependents"}, {"type": "string", "name": "own_telephone"},
+  {"type": "string", "name": "foreign_worker"}, {"type": "string", "name": "class"}]}'
+source: '{"uri": "C:\\Work\\Folder_1\\Git_folder\\mlflow-credit-risk-predictive-model\\model_build_pipeline\\Data\\credit_1/train.csv"}'
+source_type: local

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/75c1c5ce280a4d5893fab084f0df1d2c/artifacts
+end_time: 1697710138458
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: active
+run_id: 75c1c5ce280a4d5893fab084f0df1d2c
+run_name: calm-hound-969
+run_uuid: 75c1c5ce280a4d5893fab084f0df1d2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710137304
+status: 3
+tags: []
+user_id: jerro

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/d5f10c691fe74af29ae716e106dbeb48/artifacts
+end_time: 1697710601087
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: active
+run_id: d5f10c691fe74af29ae716e106dbeb48
+run_name: indecisive-snake-202
+run_uuid: d5f10c691fe74af29ae716e106dbeb48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710596165
+status: 3
+tags: []
+user_id: jerro

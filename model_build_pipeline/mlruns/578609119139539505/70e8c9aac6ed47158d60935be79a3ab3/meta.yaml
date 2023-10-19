@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/70e8c9aac6ed47158d60935be79a3ab3/artifacts
+deleted_time: 1697710527117
+end_time: 1697710266131
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: deleted
+run_id: 70e8c9aac6ed47158d60935be79a3ab3
+run_name: useful-auk-550
+run_uuid: 70e8c9aac6ed47158d60935be79a3ab3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710237669
+status: 3
+tags: []
+user_id: jerro

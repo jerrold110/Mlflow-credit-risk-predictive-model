@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/43b7ea27298c44afa3fff4a0b66ce620/artifacts
+end_time: 1697710657810
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: active
+run_id: 43b7ea27298c44afa3fff4a0b66ce620
+run_name: delightful-smelt-139
+run_uuid: 43b7ea27298c44afa3fff4a0b66ce620
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710629386
+status: 3
+tags: []
+user_id: jerro

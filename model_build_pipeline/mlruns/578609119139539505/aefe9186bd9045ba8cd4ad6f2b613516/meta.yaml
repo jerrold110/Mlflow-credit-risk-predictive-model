@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/aefe9186bd9045ba8cd4ad6f2b613516/artifacts
+deleted_time: 1697710527119
+end_time: 1697710230505
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: deleted
+run_id: aefe9186bd9045ba8cd4ad6f2b613516
+run_name: dapper-goose-75
+run_uuid: aefe9186bd9045ba8cd4ad6f2b613516
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710225584
+status: 3
+tags: []
+user_id: jerro

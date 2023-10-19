@@ -1,0 +1,18 @@
+digest: ae52e2fb
+name: dataset
+profile: '{"num_rows": 800, "num_elements": 16000}'
+schema: '{"mlflow_colspec": [{"type": "boolean", "name": "checking_status_''no checking''"},
+  {"type": "long", "name": "age"}, {"type": "boolean", "name": "credit_history_normal"},
+  {"type": "boolean", "name": "other_parties_guarantor"}, {"type": "boolean", "name":
+  "checking_status_''>=200''"}, {"type": "boolean", "name": "savings_status_''<100''"},
+  {"type": "long", "name": "installment_commitment"}, {"type": "long", "name": "credit_amount"},
+  {"type": "boolean", "name": "personal_status_''male single''"}, {"type": "boolean",
+  "name": "other_payment_plans_none"}, {"type": "boolean", "name": "other_parties_none"},
+  {"type": "boolean", "name": "purpose_normal"}, {"type": "boolean", "name": "employment_''4<=X<7''"},
+  {"type": "boolean", "name": "savings_status_''>=1000''"}, {"type": "boolean", "name":
+  "savings_status_''no known savings''"}, {"type": "boolean", "name": "checking_status_''<0''"},
+  {"type": "boolean", "name": "employment_''<1''"}, {"type": "boolean", "name": "employment_unemployed"},
+  {"type": "boolean", "name": "property_magnitude_''no known property''"}, {"type":
+  "long", "name": "class"}]}'
+source: '{"uri": "C:\\Work\\Folder_1\\Git_folder\\mlflow-credit-risk-predictive-model\\model_build_pipeline\\Data_preprocessed\\feature_extractor_1/train_fe.csv"}'
+source_type: local

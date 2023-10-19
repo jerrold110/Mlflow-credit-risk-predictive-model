@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/37adfc694b434f659fd732e61238925f/artifacts
+deleted_time: 1697710527120
+end_time: 1697710214855
+entry_point_name: ''
+experiment_id: '578609119139539505'
+lifecycle_stage: deleted
+run_id: 37adfc694b434f659fd732e61238925f
+run_name: resilient-robin-647
+run_uuid: 37adfc694b434f659fd732e61238925f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697710210369
+status: 3
+tags: []
+user_id: jerro

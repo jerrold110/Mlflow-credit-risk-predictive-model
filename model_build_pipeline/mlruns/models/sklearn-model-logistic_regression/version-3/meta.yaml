@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1697710548700
+current_stage: None
+description: null
+last_updated_timestamp: 1697710548700
+name: sklearn-model-logistic_regression
+run_id: 993be7e4054445cba4536fb2dd8f4cfc
+run_link: null
+source: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/993be7e4054445cba4536fb2dd8f4cfc/artifacts/sklearn-model
+status: READY
+status_message: null
+user_id: null
+version: 3

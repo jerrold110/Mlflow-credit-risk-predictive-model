@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1697710265546
+current_stage: None
+description: null
+last_updated_timestamp: 1697710265546
+name: sklearn-model-random_forest
+run_id: 70e8c9aac6ed47158d60935be79a3ab3
+run_link: null
+source: file:///C:/Work/Folder_1/Git_folder/mlflow-credit-risk-predictive-model/model_build_pipeline/mlruns/578609119139539505/70e8c9aac6ed47158d60935be79a3ab3/artifacts/sklearn-model
+status: READY
+status_message: null
+user_id: null
+version: 1
