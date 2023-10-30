@@ -7,4 +7,4 @@ The object registry is meant to be accessed with the MLflow ui for interaction a
 ## Sections
 Models prototypes are created in `Modelling` with python notebooks.
 
-Model lifecycle workflows are in `model_build_pipeline` and include: data preparation, build, test, deploy. This section is set up as a project and entry points (commands to run) are declared in `MLproject` that control what workflow to execute. The python environment has to be standardised and can be mananged with `conda` or in a docker image, but I am using the local environment in this case. 
+Model lifecycle workflows are in `model_build_pipeline` and include: data preparation, train, package, evaluate, test, deploy. This section is set up as a project and entry points (commands to run) are declared in `MLproject` that control what workflow to execute. The python environment has to be standardised and can be mananged with `conda` or in a docker image, but I am using the local environment in this case. Further detailed are contained in `model_build_pipeline/README.md`.
