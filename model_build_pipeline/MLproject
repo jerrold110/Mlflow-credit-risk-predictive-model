@@ -11,12 +11,14 @@ entry_points:
     parameters:
       data_file: path # this could be uri https://mlflow.org/docs/latest/projects.html#specifying-parameters
     command: "python split_data.py {data_file}"
+
   # Extract data from a certain location with a certain feature extractor logic
   extract_data:
     parameters:
       data_path: path
       extractor_file: path
     command: "python extract_data.py {data_path} {extractor_file}"
+
   # Scaling, cross-validation train. Validate on test data. Save scaling and model objects
   train:
     parameters:
@@ -24,14 +26,25 @@ entry_points:
       cv_folds: {type: float, default: 5}
       model: string
     command: "python train.py {data_path} {cv_folds} {model}"
-  # unused currently
-  # main:
-  #   parameters:
-  #     shrek: path
-  #   command: "python train.py {shrek}"
+
+  # Create deployment entrypoint and python file containing workflow either as 
+  # an api endpoint or on cloud platform with the official mlflow docker image
+  # https://mlflow.org/docs/latest/getting-started/quickstart-2/index.html#
+  # https://mlflow.org/docs/latest/python_api/mlflow.deployments.html
+  # https://mlflow.org/docs/latest/docker.html
+  
+  <!-- 
+  deploy:
+    parameters:
+    command:  -->
+    
+  <!-- main:
+    parameters:
+      p1: path
+    command: "python train.py {p1}" -->
 
 # mlflow run [OPTIONS] URI
 # mlflow run -e MAIN .
-# mlflow run -e extract .
-# mlflow run git@github.com:mlflow/mlflow-example.git -P alpha=0.5
+# mlflow run -e extract_data .
+# mlflow run -e MAIN git@github.com:mlflow/mlflow-example.git -P alpha=0.5
   

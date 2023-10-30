@@ -12,6 +12,8 @@ if __name__ == "__main__":
                         env_manager='local')
 
 """
+Other commands saved for running
+
     # split
     mlflow.projects.run(uri=work_dir,
                         entry_point='split_data',
